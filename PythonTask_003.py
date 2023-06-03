@@ -1,0 +1,5 @@
+countStudent1 = int(input("Введите количество учеников в первом кабинете:  "))
+countStudent2 = int(input("Введите количество учеников во втором кабинете:  "))
+countStudent3 = int(input("Введите количество учеников в третьем кабинете:  "))
+part = (countStudent1 // 2 + countStudent1 % 2) + (countStudent2 // 2 + countStudent2 % 2) + (countStudent3 // 2 + countStudent3 % 2)
+print(part)
