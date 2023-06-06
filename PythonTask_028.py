@@ -13,3 +13,13 @@ while n > 0:
     b = str(n % 2) + b
     n = n // 2
 print(b)
+
+
+# Подсматрел на семинаре
+# def binary(n):
+#     if n == 0 or n == 1:
+#         return f'{n}'
+#     return binary(n // 2) + f'{n % 2}'
+
+# n = int(input())
+# print(binary(n))
